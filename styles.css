@@ -1,0 +1,67 @@
+body{
+    background:white;
+    
+}
+
+.octopus{
+    height:400px;
+    width:400px;
+}
+.postIG{
+    background-color:azure;
+    width: 400px;
+    height: auto;
+    margin:auto
+}
+.postIG-header{
+    display: flex;
+    flex-direction: row;
+   }
+.postIG-header-iconhtml{
+   margin-top: 5px;
+   font-size: 50px;
+   margin-left: 5px;
+}
+.postIG-header-texts{
+    margin-top: 5px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+    margin-left: 5px;
+
+}
+.postIG-header-texts p{
+    font-size: 20px;
+    margin-block: 0px;
+}
+.postIG-header-texts p:first-child{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.postIG-header-iconelipsis{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+.postIG-body {
+    padding-bottom: 10px;
+
+}
+.postIG-body p{
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+.postIG-icons{
+    display: flex;
+}
+.postIG-icons-left{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.postIG-icons-right{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 5px;
+}
